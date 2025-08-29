@@ -1,0 +1,26 @@
+# Python / PyInstaller
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.spec
+.venv/
+.env
+
+# Build outputs and local executables
+/build/
+/bin/
+/dist/
+*.exe
+
+# Local data/output
+/Calibration Accuracy Data/Archive/
+/Calibration Accuracy Data/WattbikeAgentDebug/
+/Calibration Accuracy Data/*.csv
+/Calibration Accuracy Data/*.xlsx
+/Calibration Accuracy Data/*_pending.csv
+
+# OS junk
+*.log
+Thumbs.db
+.DS_Store
